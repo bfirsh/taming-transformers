@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 import pytorch_lightning as pl
 
-from main import instantiate_from_config
+from taming.util import instantiate_from_config
 
 
 def disabled_train(self, mode=True):
